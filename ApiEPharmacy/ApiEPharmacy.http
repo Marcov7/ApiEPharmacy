@@ -1,0 +1,6 @@
+@ApiEPharmacy_HostAddress = http://localhost:5078
+
+GET {{ApiEPharmacy_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

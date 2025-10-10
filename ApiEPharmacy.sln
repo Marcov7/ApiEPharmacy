@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiEPharmacy", "ApiEPharmacy\ApiEPharmacy.csproj", "{390B687C-D98D-4B4C-A37B-26FC289C06B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{390B687C-D98D-4B4C-A37B-26FC289C06B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390B687C-D98D-4B4C-A37B-26FC289C06B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390B687C-D98D-4B4C-A37B-26FC289C06B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390B687C-D98D-4B4C-A37B-26FC289C06B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CCA0F9-ACF8-4702-8586-A12859A69712}
+	EndGlobalSection
+EndGlobal
