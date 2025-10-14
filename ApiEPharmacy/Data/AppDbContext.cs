@@ -10,6 +10,10 @@ namespace ApiEPharmacy.Data
         public DbSet<Especialidade> Especialidade { get; set; }
         public DbSet<Medico> Medico { get; set; }
         public DbSet<UsuarioSistema> UsuarioSistema { get; set; }
+        public DbSet<BairroZona> BairroZona { get; set; }
+        public DbSet<ClasseTerapeutica> ClasseTerapeutica { get; set; }
+        public DbSet<Clinica> Clinica { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
