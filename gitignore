@@ -3,7 +3,6 @@ bin/
 obj/
 
 # User-specific files
-*.user
 *.rsuser
 *.suo
 *.userosscache
@@ -14,6 +13,10 @@ obj/
 
 # Visual Studio
 .vs/
+*.vspscc
+*.vssscc
+*.user
+
 
 # Others
 *.swp
