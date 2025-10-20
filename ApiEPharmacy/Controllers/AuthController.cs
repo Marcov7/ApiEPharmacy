@@ -28,7 +28,7 @@ namespace ApiEPharmacy.Controllers
             if (usuario == null)
                 return Unauthorized("Usuário ou senha inválidos.");
 
-            // Gera o token.
+            // Gera o token
             var token = TokenService.GerarToken(usuario.Login, usuario.Nome);
 
             return Ok(new
