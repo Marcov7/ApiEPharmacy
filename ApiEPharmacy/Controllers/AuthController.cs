@@ -12,7 +12,6 @@ namespace ApiEPharmacy.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AppDbContext _context;
-
         // Construtor para injeção de dependência do contexto do banco de dados.
         public AuthController(AppDbContext context)
         {
