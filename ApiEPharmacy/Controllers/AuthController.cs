@@ -13,6 +13,7 @@ namespace ApiEPharmacy.Controllers
     {
         private readonly AppDbContext _context;
 
+        // Construtor para injeção de dependência do contexto do banco de dados.
         public AuthController(AppDbContext context)
         {
             _context = context;
@@ -21,7 +22,7 @@ namespace ApiEPharmacy.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UsuarioSistema loginRequest)
         {
-            // Verifica usuário no banco
+            // Verifica usuário no banco.
             var usuario = await _context.UsuarioSistema
                 .FirstOrDefaultAsync(u => u.Login == loginRequest.Login && u.Senha == loginRequest.Senha);
 
@@ -29,6 +30,7 @@ namespace ApiEPharmacy.Controllers
                 return Unauthorized("Usuário ou senha inválidos.");
 
             // Gera o token.
+
             var token = TokenService.GerarToken(usuario.Login, usuario.Nome);
 
             return Ok(new
